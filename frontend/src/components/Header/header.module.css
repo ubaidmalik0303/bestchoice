@@ -1,0 +1,244 @@
+.bglightblack:is {
+  background-color: rgb(49, 47, 47);
+}
+
+.menuicon {
+  display: none;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 40px;
+  background-color: transparent;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.281);
+  box-shadow: 2px 2px 50px 50px rgba(255, 255, 255, 0.281);
+  transition: all 200ms linear;
+}
+
+.header > div > a{
+  text-decoration: none;
+}
+
+.header h1{
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.stickyheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 10px 40px;
+  background-color: white;
+  border-bottom: 1px solid rgb(236, 233, 233);
+  box-shadow: none;
+}
+
+.logoimg {
+  width: 150px;
+  height: 50px;
+}
+
+.header > div:nth-child(3) {
+  margin-left: auto;
+}
+
+.header div > ul {
+  list-style: none;
+  display: flex;
+  margin: auto;
+}
+
+.header > div > ul > li {
+  font-size: 14px;
+  margin: 0 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+}
+
+.header > div > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header > div:nth-child(3) > svg {
+  margin: 0 10px;
+}
+
+.dropdown {
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  left: -150px;
+  display: flex;
+  flex-direction: row;
+  width: 700px !important;
+  width: auto;
+  justify-content: space-between;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 200ms linear;
+}
+
+.dropdown > div:nth-child(3) {
+  align-self: center;
+}
+
+.header div > ul > li:hover > .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown > div > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.dropdown > div > ul li:nth-child(1) {
+  font-weight: 900;
+  margin: 10px 0 !important;
+}
+
+.dropdown > div > ul li {
+  margin: 4px 0 !important;
+  font-weight: 600;
+}
+
+.dropdown > div > ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.mobileNavbar {
+  width: 300px;
+  height: 100vh;
+  background-color: #1d2127;
+  position: fixed;
+  top: 0;
+  left: -200vw;
+  z-index: 1001;
+  overflow-y: scroll;
+  transition: left 200ms linear;
+}
+
+.mobilenavcontent > a {
+  margin: 5px 0 0 5px;
+  text-decoration: none;
+}
+
+.mobilenavcontent a > h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.mobilenavcontent > ul {
+  list-style: none;
+  margin: 20px 0 0 10px;
+  padding: 0;
+}
+
+.mobilenavcontent ul li {
+  margin: 5px 0;
+  position: relative;
+}
+
+.mobilenavcontent ul li svg {
+  position: absolute;
+  right: 10px;
+}
+
+.mobilenavcontent ul li a {
+  color: white !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.mobilenavcontent ul li svg{
+  color: white !important;
+}
+
+.mobileNavbar ul li > ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+  height: auto;
+  overflow: hidden;
+  transition: all 200ms linear;
+}
+
+.showmobileNavbardropdown {
+  height: 100%;
+  cursor: pointer;
+}
+
+.scrolltotopbtn {
+  background-color: tomato;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  z-index: 2000;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: transform 300ms linear;
+}
+
+.showscrollbtn {
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 900px) {
+  .showmobilenav {
+    left: 0;
+  }
+
+  .hidemobilenav {
+    left: -200vw;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header {
+    padding: 20px 10px;
+  }
+
+  .stickyheader {
+    padding: 10px;
+  }
+
+  .menuicon {
+    display: initial;
+  }
+
+  .header > div:nth-child(3) > svg {
+    height: 25px;
+    margin: 0 5px;
+  }
+
+  .logoimg {
+    width: 100px;
+    height: 35px;
+  }
+}

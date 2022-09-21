@@ -1,0 +1,108 @@
+.productCardLink {
+  text-decoration: none;
+}
+
+.productCard {
+  width: 180px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 2px 2px 10px 1px rgb(233, 232, 232);
+  transform: scale(1);
+  transition: transform 300ms linear;
+}
+
+.productCard:hover{
+  transform: scale(1.05);
+}
+
+.productCard > .upperBody {
+  height: 180px;
+  position: relative;
+}
+
+.productCard > div > .hoverCard {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.219);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 200ms linear;
+}
+
+.rightArrow {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.productCard > div > div > button {
+  width: 100%;
+  background-color: tomato;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 200ms linear;
+}
+
+.productCard:hover > div > div > button,
+.productCard:hover > div > .hoverCard {
+  opacity: 1;
+  visibility: visible;
+}
+
+.productCard > div > span {
+  font-size: 10px;
+  color: rgb(119, 119, 119);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.productCard > h3 {
+  font-size: 15px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.price {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: black !important;
+}
+
+@media screen and (max-width: 450px) {
+  .productCard {
+    width: 150px;
+  }
+
+  .productCard > .upperBody {
+    height: 150px;
+  }
+
+  .productCard > .upperBody > img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .productCard > h3 {
+    font-size: 12px;
+  }
+}
