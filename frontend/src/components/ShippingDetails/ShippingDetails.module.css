@@ -21,7 +21,7 @@ select {
 }
 
 .shppingdetails form input[type="submit"] {
-  background-color: black;
+  background-color: tomato;
   color: white;
   border: none;
 }

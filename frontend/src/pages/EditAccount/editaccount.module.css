@@ -22,7 +22,7 @@
   }
   
   .editaccount form > input[type="submit"] {
-    background-color: black;
+    background-color: tomato;
     color: white;
     font-weight: 700;
   }

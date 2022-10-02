@@ -168,26 +168,26 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className={headerStyles.iconsRight}>
           <FiMenu
             className={headerStyles.menuicon}
             size={30}
             onClick={handleShowMobileNavbar}
           />
-          <Link className="mx-1" to="/search">
+          <Link to="/search">
             <FiSearch
               className={headerStyles.searchicon}
               color="black"
               size={30}
             />
           </Link>
-          <Link className="mx-1" to="/login">
+          <Link to="/login">
             <FiUser color="black" size={30} />
           </Link>
-          <Link className="mx-1" to="/my-account/wishlist">
+          <Link to="/my-account/wishlist">
             <FiHeart color="black" size={30} />
           </Link>
-          <Link className="mx-1" to="/my-account/cart">
+          <Link to="/my-account/cart">
             <FiShoppingBag color="black" size={30} />
           </Link>
         </div>

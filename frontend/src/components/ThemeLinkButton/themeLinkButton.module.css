@@ -3,7 +3,7 @@
   font-size: 18px;
   color: white;
   font-weight: 900;
-  background-color: #ff5b5b;
+  background-color: tomato;
   border: none;
   outline: none;
   padding: 20px 40px;
@@ -12,5 +12,5 @@
 
 .themelinkbutton:hover{
     color: white;
-    background-color: #0a4399;
+    background-color: rgb(189, 70, 49);
 }

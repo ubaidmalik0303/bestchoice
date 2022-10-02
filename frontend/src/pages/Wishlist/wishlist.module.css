@@ -90,7 +90,7 @@
 
 .wishlist table > tbody > tr > td > button {
   color: white;
-  background-color: black;
+  background-color: tomato;
   outline: none;
   border: none;
   font-weight: 600;

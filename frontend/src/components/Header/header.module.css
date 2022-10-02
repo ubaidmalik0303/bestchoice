@@ -126,6 +126,10 @@
   text-decoration: none;
 }
 
+.iconsRight svg{
+  margin: 0 5px !important;
+}
+
 .mobileNavbar {
   width: 300px;
   height: 100vh;
@@ -234,11 +238,21 @@
 
   .header > div:nth-child(3) > svg {
     height: 25px;
-    margin: 0 5px;
+    margin: 0 2px;
   }
 
   .logoimg {
     width: 100px;
     height: 35px;
+  }
+
+  .header h1{
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+
+  .iconsRight svg{
+    margin: 0 !important;
+    height: 25px;
   }
 }

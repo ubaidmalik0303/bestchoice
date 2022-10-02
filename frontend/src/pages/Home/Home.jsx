@@ -8,6 +8,7 @@ import {
   FiCreditCard,
   FiTruck,
   FiCornerUpLeft,
+  FiChevronDown,
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
@@ -17,6 +18,10 @@ import SpinnerLoader from "../../components/SpinnerLoader/SpinnerLoader";
 import SEO from "../../components/SEO/SEO";
 
 const Home = () => {
+  const scrollNext = () => {
+    window.scrollTo(0, window.innerHeight);
+  };
+
   const alert = useAlert();
   const dispatch = useDispatch();
   const { loading, products, error } = useSelector((state) => state.products);
@@ -71,16 +76,13 @@ const Home = () => {
           style={{ background: `url('${website?.banner?.url}')` }}
         >
           <div className={HomeStyles.content}>
-            <h2>Home & Kitchen trends</h2>
-            <h3>GET UPTO 30% OFF</h3>
-            <h3>on Cutlery</h3>
-            <p style={{ color: "white" }}>
-              STARTING AT{" "}
-              <span style={{ color: "black" }}>
-                $10<sup>99</sup>
-              </span>
-            </p>
-            <ThemeLinkButton title="SHOP NOW" link="/store/Home & Kitchen" />
+            <h2>Every Purchase Will Be Made With Pleasure</h2>
+            <Link to="/store">Purchase Now</Link>
+            <FiChevronDown
+              color="white"
+              size={50}
+              onClick={() => scrollNext()}
+            />
           </div>
         </div>
       </div>
