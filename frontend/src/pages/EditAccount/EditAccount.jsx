@@ -76,7 +76,7 @@ const EditAccount = () => {
   }, [dispatch, error, alert, navigate, user, isUpdated]);
   return (
     <>
-      <SEO title="Edit Account - BEST CHOICE" />
+      <SEO title="Edit Account - YOUR CHOOICE" />
       <Breadcrumb name="EDIT ACCOUNT" breadcrumbpath={" > Edit Account"} />
       <div className={`container-fluid ${EditAccountStyles.editaccount}`}>
         <div className="container py-5">

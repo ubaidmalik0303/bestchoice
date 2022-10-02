@@ -56,7 +56,7 @@ const Contact = () => {
   }, [dispatch, success, error, alert, successMessage]);
   return (
     <>
-      <SEO title="Contact - BEST CHOICE" />
+      <SEO title="Contact - YOUR CHOOICE" />
       <Breadcrumb name="CONTACT US" breadcrumbpath={" > Contact"} auth="no" />
       <div className={`container-fluid ${ContactStyles.contact}`}>
         <div className="container py-5">

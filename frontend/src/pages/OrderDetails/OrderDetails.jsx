@@ -25,7 +25,7 @@ const OrderDetails = () => {
 
   return (
     <>
-      <SEO title="Order Details - BEST CHOICE" />
+      <SEO title="Order Details - YOUR CHOOICE" />
       <BreadCrumb name="Order Details" breadcrumbpath=" > Order Details" />
       <div className={`container-fluid ${OrderDetailsStyles.orderdetails}`}>
         {loading ? (

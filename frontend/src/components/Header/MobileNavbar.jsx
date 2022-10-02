@@ -40,7 +40,7 @@ const MobileNavbar = ({ isShow, showFunc, setIsShow }) => {
               alt={website?.websitename}
             />
           ) : (
-            <h1>Best Choice</h1>
+            <h1>YOUR CHOOICE</h1>
           )}
         </Link>
         <ul>

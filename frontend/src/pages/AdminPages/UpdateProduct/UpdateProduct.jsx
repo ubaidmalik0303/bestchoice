@@ -143,7 +143,7 @@ const UpdateProduct = () => {
 
   return (
     <>
-      <SEO title="Update Product - BEST CHOICE" />
+      <SEO title="Update Product - YOUR CHOOICE" />
       <div className={UpdateProductStyles.updateproduct}>
         <div className="container">
           <div className="row justify-content-center">

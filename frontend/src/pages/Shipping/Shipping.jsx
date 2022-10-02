@@ -7,7 +7,7 @@ import SEO from "../../components/SEO/SEO";
 const Shipping = () => {
   return (
     <>
-      <SEO title="Shipping Details - BEST CHOICE" />
+      <SEO title="Shipping Details - YOUR CHOOICE" />
       <div className={`container-fluid ${ShppingStyles.shipping}`}>
         <div className="py-5 mb-5"></div>
         <ShippingStepper activeStep={0} />

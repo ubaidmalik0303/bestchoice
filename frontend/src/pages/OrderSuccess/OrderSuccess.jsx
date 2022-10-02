@@ -7,7 +7,7 @@ import SEO from "../../components/SEO/SEO";
 const OrderSuccess = () => {
   return (
     <>
-      <SEO title="Order Success - BEST CHOICE" />
+      <SEO title="Order Success - YOUR CHOOICE" />
       <div
         className={`container-fluid ${OrderSuccessStyles.orderSuccess} text-center`}
       >

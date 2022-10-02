@@ -17,7 +17,7 @@ const Search = () => {
 
   return (
     <>
-      <SEO title="Search Product - BEST CHOICE" />
+      <SEO title="Search Product - YOUR CHOOICE" />
       <Breadcrumb
         name="FIND YOUR PRODUCT"
         auth="no"

@@ -78,7 +78,7 @@ const Store = () => {
 
   return (
     <>
-      <SEO title="Store - BEST CHOICE" />
+      <SEO title="Store - YOUR CHOOICE" />
       <StorePath />
       <div className={`container-fluid ${StoreStyles.store}`}>
         <div className="row">

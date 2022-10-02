@@ -81,7 +81,7 @@ const Users = () => {
   ]);
   return (
     <>
-      <SEO title="Users - BEST CHOICE" />
+      <SEO title="Users - YOUR CHOOICE" />
       <div className={UsersStyles.users}>
         <h2 className="text-center my-3">All Users</h2>
         <div className={UsersStyles.usersoptions}>

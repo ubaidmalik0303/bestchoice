@@ -98,8 +98,8 @@ const Header = () => {
             {website?.logo?.url ? <img
               className={headerStyles.logoimg}
               src={website?.logo?.url}
-              alt="BEST CHOICE"
-            /> : <h1>Best Choice</h1>}
+              alt="YOUR CHOOICE"
+            /> : <h1>YOUR CHOOICE</h1>}
           </Link>
         </div>
         <div className={headerStyles.navbar}>

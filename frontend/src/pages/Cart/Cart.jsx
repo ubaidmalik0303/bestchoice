@@ -33,7 +33,7 @@ const Cart = () => {
 
   return (
     <>
-      <SEO title="Cart - BEST CHOICE" />
+      <SEO title="Cart - YOUR CHOOICE" />
       <BreadCrumb name="CART" breadcrumbpath=" > Cart" />
       <div className={`container-fluid ${CartStyles.cart} p-3 p-md-5`}>
         {!cartItems[0] ? (

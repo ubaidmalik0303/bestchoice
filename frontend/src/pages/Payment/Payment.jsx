@@ -122,7 +122,7 @@ const Payment = () => {
 
   return (
     <>
-      <SEO title="Payment - BEST CHOICE" />
+      <SEO title="Payment - YOUR CHOOICE" />
       <div className={`container-fluid ${PaymentStyles.payment}`}>
         <div className="py-5 mb-5"></div>
         <ShippingStepper activeStep={2} />

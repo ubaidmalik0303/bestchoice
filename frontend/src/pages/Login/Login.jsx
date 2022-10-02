@@ -37,7 +37,7 @@ const Login = () => {
 
   return (
     <>
-      <SEO title="Login - BEST CHOICE" />
+      <SEO title="Login - YOUR CHOOICE" />
       <Breadcrumb name="LOGIN" breadcrumbpath=" > Login" auth="no" />
       <div className={`container-fluid ${LoginStyle.login}`}>
         <div className="container py-5">

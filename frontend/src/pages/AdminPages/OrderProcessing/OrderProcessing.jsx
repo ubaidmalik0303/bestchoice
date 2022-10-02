@@ -49,7 +49,7 @@ const OrderProcessing = () => {
   }, [dispatch, error, id, updateError, isUpdated, alert]);
   return (
     <>
-      <SEO title="Order Processing - BEST CHOICE" />
+      <SEO title="Order Processing - YOUR CHOOICE" />
       <div className={OrderProcessingStyles.orderprocessing}>
         {loading ? (
           <SpinnerLoader />

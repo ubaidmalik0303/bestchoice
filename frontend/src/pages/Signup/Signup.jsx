@@ -69,7 +69,7 @@ const Signup = () => {
 
   return (
     <>
-      <SEO title="Signup - BEST CHOICE" />
+      <SEO title="Signup - YOUR CHOOICE" />
       <Breadcrumb name="SIGNUP" breadcrumbpath={" > Signup"} auth="no" />
       <div className={`container-fluid ${SignupStyles.signup}`}>
         <div className="container py-5">

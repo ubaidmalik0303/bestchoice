@@ -92,7 +92,7 @@ const EditCategories = () => {
 
   return (
     <>
-      <SEO title="Edit Category - BEST CHOICE" />
+      <SEO title="Edit Category - YOUR CHOOICE" />
       <div className={`${EditCategoriesStyles.editcategories} container-fluid`}>
         {loading || detailsLoading ? (
           <SpinnerLoader />

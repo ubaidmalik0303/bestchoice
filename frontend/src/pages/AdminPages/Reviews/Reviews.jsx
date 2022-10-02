@@ -56,7 +56,7 @@ const Reviews = () => {
 
   return (
     <>
-      <SEO title="Reviews - BEST CHOICE" />
+      <SEO title="Reviews - YOUR CHOOICE" />
       <div className={`${ReviewsStyles.reviews}`}>
         <div className="row justify-content-center py-5">
           <div className="col-md-6">

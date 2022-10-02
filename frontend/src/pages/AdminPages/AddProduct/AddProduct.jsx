@@ -117,7 +117,7 @@ const AddProduct = () => {
 
   return (
     <>
-      <SEO title="Add Product - BEST CHOICE" />
+      <SEO title="Add Product - YOUR CHOOICE" />
       <div className={AddProductStyles.addproduct}>
         <div className="container">
           <div className="row justify-content-center">

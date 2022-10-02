@@ -61,7 +61,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <SEO title="Dashboard - BEST CHOICE" />
+      <SEO title="Dashboard - YOUR CHOOICE" />
       <div className={`${DashboardStyles.dashboard} container-fluid`}>
         <div className="bg-primary d-flex justify-content-center py-3">
           <span className={`${DashboardStyles.totalsalesamount}`}>

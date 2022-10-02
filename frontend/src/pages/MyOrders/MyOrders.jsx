@@ -25,7 +25,7 @@ const MyOrders = () => {
 
   return (
     <>
-      <SEO title="My Orders - BEST CHOICE" />
+      <SEO title="My Orders - YOUR CHOOICE" />
 
       <Breadcrumb name="MY ORDERS" breadcrumbpath=" > My Orders" />
       <div className={`container-fluid ${MyOrdersStyles.myorders} p-3 p-md-5`}>

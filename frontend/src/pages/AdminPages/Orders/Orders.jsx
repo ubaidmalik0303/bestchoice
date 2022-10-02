@@ -47,7 +47,7 @@ const Orders = () => {
 
   return (
     <>
-      <SEO title="Orders - BEST CHOICE" />
+      <SEO title="Orders - YOUR CHOOICE" />
 
       <div className={OrdersStyles.orders}>
         <h2 className="text-center my-3">All Products</h2>

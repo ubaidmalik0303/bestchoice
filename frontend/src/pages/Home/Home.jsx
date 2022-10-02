@@ -68,7 +68,7 @@ const Home = () => {
 
   return (
     <>
-      <SEO title="BEST CHOICE" />
+      <SEO title="YOUR CHOOICE" />
       <div className={`${HomeStyles.hero} w-100`}>
         <div className={HomeStyles.tarnsparent}></div>
         <div

@@ -64,7 +64,7 @@ const Wishlist = () => {
 
   return (
     <>
-      <SEO title="Wishlist - BEST CHOICE" />
+      <SEO title="Wishlist - YOUR CHOOICE" />
       <Breadcrumb name="WISHLIST" breadcrumbpath=" > Wishlist" />
       <div className={`container-fluid ${WishlistStyles.wishlist} p-3 p-md-5`}>
         {!wishlist[0] ? (

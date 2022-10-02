@@ -46,7 +46,7 @@ const ResetPassword = () => {
 
   return (
     <>
-      <SEO title="Reset Password - BEST CHOICE" />
+      <SEO title="Reset Password - YOUR CHOOICE" />
       <Breadcrumb name="RESET PASSWORD" breadcrumbpath=" > RESET Password" />
       <div className={`container-fluid ${ResetPasswordStyles.resetpassword}`}>
         <div className="container py-5">

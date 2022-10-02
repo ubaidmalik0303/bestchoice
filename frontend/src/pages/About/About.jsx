@@ -6,13 +6,13 @@ import SEO from "../../components/SEO/SEO";
 const About = () => {
   return (
     <>
-      <SEO title="About - BEST CHOICE" />
+      <SEO title="About - YOUR CHOOICE" />
       <Breadcrumb name="ABOUT" breadcrumbpath=" > About" auth="no" />
       <div className={`container-fluid ${AboutStyles.about}`}>
         <div className="container">
-          <h2>BEST CHOICE</h2>
+          <h2>YOUR CHOOICE</h2>
           <p>
-            BEST CHOICE is a eCommerce plateform where you can find wholesale
+            YOUR CHOOICE is a eCommerce plateform where you can find wholesale
             and retail products in good prices and discounts. We are USA based
             company and deliver our products all over USA. You can order a
             single product or in bulk we have stock ready to deliver. we have

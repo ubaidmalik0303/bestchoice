@@ -50,7 +50,7 @@ const Products = () => {
 
   return (
     <>
-      <SEO title="Products - BEST CHOICE" />
+      <SEO title="Products - YOUR CHOOICE" />
       <div className={ProductsStyles.adminproducts}>
         <h2 className="text-center my-3">All Products</h2>
         <div className={ProductsStyles.adminproductsoptions}>

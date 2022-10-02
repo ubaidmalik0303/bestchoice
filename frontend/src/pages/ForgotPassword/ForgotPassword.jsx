@@ -41,7 +41,7 @@ const ForgotPassword = () => {
 
   return (
     <>
-      <SEO title="Forgot Password - BEST CHOICE" />
+      <SEO title="Forgot Password - YOUR CHOOICE" />
       <Breadcrumb
         name="FORGOT PASSWORD"
         breadcrumbpath=" > Forgot Password"

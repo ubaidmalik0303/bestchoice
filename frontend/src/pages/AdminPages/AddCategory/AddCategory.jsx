@@ -110,7 +110,7 @@ const AddCategory = () => {
 
   return (
     <>
-      <SEO title="Add Category - BEST CHOICE" />
+      <SEO title="Add Category - YOUR CHOOICE" />
 
       <div className={AddCategoryStyles.addcategory}>
         <div className="container">

@@ -129,7 +129,7 @@ const Settings = () => {
 
   return (
     <>
-      <SEO title="Settings - BEST CHOICE" />
+      <SEO title="Settings - YOUR CHOOICE" />
       <div className={SettingsStyles.settings}>
         <div className="container-fluid">
           {loading || updateLoading ? (

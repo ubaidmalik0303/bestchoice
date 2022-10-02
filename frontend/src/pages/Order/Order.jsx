@@ -40,7 +40,7 @@ const Order = () => {
 
   return (
     <>
-      <SEO title="Order - BEST CHOICE" />
+      <SEO title="Order - YOUR CHOOICE" />
       <div className={`container-fluid ${OrderStyles.order}`}>
         <div className="py-5 mb-5"></div>
         <ShippingStepper activeStep={1} />

@@ -50,7 +50,7 @@ const ChangePassword = () => {
 
   return (
     <>
-      <SEO title="Change Password - BEST CHOICE" />
+      <SEO title="Change Password - YOUR CHOOICE" />
       <Breadcrumb name="CHANGE PASSWORD" breadcrumbpath=" > Change Password" />
       <div className={`container-fluid ${ChangePasswordStyles.changepassword}`}>
         <div className="container py-5">

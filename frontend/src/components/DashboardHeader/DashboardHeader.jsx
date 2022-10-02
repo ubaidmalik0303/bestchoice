@@ -6,7 +6,7 @@ import { FiUser, FiMenu } from "react-icons/fi";
 const DashboardHeader = () => {
   return (
     <header className={DashboardHeaderStyles.header}>
-      <h2>BEST CHOICE</h2>
+      <h2>YOUR CHOOICE</h2>
       <div>
         <FiMenu size={30} className={DashboardHeaderStyles.menuicon} />
         <Link to="/my-account">

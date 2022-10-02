@@ -17,7 +17,7 @@ const MyAccount = () => {
 
   return (
     <>
-      <SEO title="My Account - BEST CHOICE" />
+      <SEO title="My Account - YOUR CHOOICE" />
       <Breadcrumb name="MY ACCOUNT" />
       <div className={`container-fluid py-5 ${MyAccountStyles.myaccount}`}>
         {loading ? (

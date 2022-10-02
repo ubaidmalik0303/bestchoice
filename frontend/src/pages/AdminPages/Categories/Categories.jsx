@@ -51,7 +51,7 @@ const Categories = () => {
 
   return (
     <>
-      <SEO title="Categories - BEST CHOICE" />
+      <SEO title="Categories - YOUR CHOOICE" />
       <div className={CategoriesStyles.categories}>
         <h2 className="text-center my-3">All Categories</h2>
         <div className="py-3 text-end">
