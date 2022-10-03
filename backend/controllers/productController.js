@@ -19,7 +19,28 @@ exports.createProduct = catchAsyncError(async (req, res, next) => {
 
   const product = await Product.create(req.body);
 
-  const uploadImagesPromise = req.files.images.map(async (img) => {
+  if (req.files.images[0]) {
+    const uploadImagesPromise = req.files.images.map(async (img) => {
+      const imageKey = keygen._();
+      const imageName = imageKey + "." + img.mimetype.split("/")[1];
+
+      const imageRef = ref(storage, `products/${imageName}`);
+      const uploadTask = await uploadBytes(imageRef, img.data, {
+        contentType: img.mimetype,
+      });
+      const downloadUrl = await getDownloadURL(imageRef).then((url) => {
+        return url;
+      });
+      return {
+        public_id: imageName,
+        url: downloadUrl,
+      };
+    });
+
+    const imagesLinks = await Promise.all(uploadImagesPromise);
+    product.images = imagesLinks;
+  } else {
+    const img = req.files.images;
     const imageKey = keygen._();
     const imageName = imageKey + "." + img.mimetype.split("/")[1];
 
@@ -30,14 +51,13 @@ exports.createProduct = catchAsyncError(async (req, res, next) => {
     const downloadUrl = await getDownloadURL(imageRef).then((url) => {
       return url;
     });
-    return {
-      public_id: imageName,
-      url: downloadUrl,
-    };
-  });
-
-  const imagesLinks = await Promise.all(uploadImagesPromise);
-  product.images = imagesLinks;
+    product.images = [
+      {
+        public_id: imageName,
+        url: downloadUrl,
+      },
+    ];
+  }
 
   await product.save();
 
