@@ -68,10 +68,10 @@
 
 .paginationlink:hover {
   color: white;
-  background-color: black;
+  background-color: tomato;
 }
 
 .paginationlinkactive {
-  background-color: black;
+  background-color: tomato;
   color: white;
 }
