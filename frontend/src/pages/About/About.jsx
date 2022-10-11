@@ -18,8 +18,8 @@ const About = () => {
             single product or in bulk we have stock ready to deliver. we have
             vast variaty in home & kitchen, home decor, bathroom, furniture
             category. Our location: 30 N Gould St Ste 25404, Sheridan, Wyoming,
-            82801. You can mail us on: info@bestchoice.com. For any inquiry call
-            now +1 682 651 8211.
+            82801. You can mail us on: info@yourchooice.com. For any inquiry call
+            now +1 214 894 3853.
           </p>
         </div>
       </div>
