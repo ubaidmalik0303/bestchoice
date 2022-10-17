@@ -2,8 +2,11 @@ import React from "react";
 import AboutStyles from "./about.module.css";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 import SEO from "../../components/SEO/SEO";
+import { useSelector } from "react-redux";
 
 const About = () => {
+  const { website } = useSelector((state) => state.getwebsitedetails);
+
   return (
     <>
       <SEO title="About - YOUR CHOOICE" />
@@ -17,9 +20,8 @@ const About = () => {
             company and deliver our products all over USA. You can order a
             single product or in bulk we have stock ready to deliver. we have
             vast variaty in home & kitchen, home decor, bathroom, furniture
-            category. Our location: 30 N Gould St Ste 25404, Sheridan, Wyoming,
-            82801. You can mail us on: info@yourchooice.com. For any inquiry call
-            now +1 214 894 3853.
+            category. Our location: {website?.address}. You can mail us on: {website?.email}. For any inquiry call
+            now {website?.contactno}.
           </p>
         </div>
       </div>
